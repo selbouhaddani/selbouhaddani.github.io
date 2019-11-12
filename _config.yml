@@ -21,6 +21,7 @@ description: Academic website
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+  - CV: "curr_vitae"
   Research projects: "research_projects"
   Publications: "publications"
   Teaching: "teaching"
