@@ -21,11 +21,11 @@ description: Academic website
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-          - CV: "curr_vitae"
+  CV: "curr_vitae"
   Research: 
-          - Projects: "projects"
-          - Conference slides: "conf_slides"
-          - Publications: "publications"
+    - Projects: "projects"
+    - Conference slides: "conf_slides"
+    - Publications: "publications"
   Teaching: "teaching"
   Software: "software"
 
