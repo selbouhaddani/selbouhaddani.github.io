@@ -23,7 +23,7 @@ navbar-links:
   About Me: "aboutme"
           - CV: "curr_vitae"
   Research: 
-          - Projects: "Projects"
+          - Projects: "projects"
           - Conference slides: "conf_slides"
           - Publications: "publications"
   Teaching: "teaching"
