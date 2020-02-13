@@ -5,9 +5,9 @@ subtitle: <H4> Statistician in omics data integration </H4>
 email: s.elbouhaddani[at]umcutrecht.nl
 ---
 
-<h2> [About me](https://selbouhaddani.github.io/aboutme/) </h2>
+## Links to
 
-<h2> [A brief CV](https://selbouhaddani.github.io/curr_vitae/) </h2>
-
-<h2> [Research projects](https://selbouhaddani.github.io/projects/) </h2>
+- [About me](https://selbouhaddani.github.io/aboutme/)
+- [A brief CV](https://selbouhaddani.github.io/curr_vitae/)
+- [Research projects](https://selbouhaddani.github.io/projects/)
 
