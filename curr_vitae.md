@@ -5,8 +5,7 @@ title: A brief Curriculum Vitae
 
 <H2 style="color:#774800"> Said el Bouhaddani </H2>
 
-_Biostatistics_ | _High dimensional data integration_ | _Latent variable
-modelling_ | _R programming_
+_Biostatistics_ &#124; _High dimensional data integration_ &#124; _Latent variable modelling_ &#124; _R programming_
 
 #### Post-doctoral researcher at UMC Utrecht
 ##### Dec. 2018 - now
