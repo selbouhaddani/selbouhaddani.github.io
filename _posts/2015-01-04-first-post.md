@@ -1,7 +1,11 @@
 ---
 layout: post
-title: First post!
-image: /img/hello_world.jpeg
+title: Sample blog post
+subtitle: Each post also has a subtitle
+gh-repo: daattali/beautiful-jekyll
+gh-badge: [star, fork, follow]
+tags: [test]
+comments: true
 ---
 
-This is my first post, how exciting!
+This is a demo
