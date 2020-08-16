@@ -20,6 +20,7 @@ description: Academic website
 
 # List of links in the navigation bar
 navbar-links:
+  Blog: "blog"
   About Me: "aboutme"
   CV: "curr_vitae"
   Research: 
