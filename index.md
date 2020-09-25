@@ -7,7 +7,7 @@ email: s.elbouhaddani[at]umcutrecht.nl
 
 ## Links to
 
-- [About me](https://selbouhaddani.github.io/aboutme/)
-- [A brief CV](https://selbouhaddani.github.io/curr_vitae/)
-- [Research projects](https://selbouhaddani.github.io/projects/)
+- [About me](aboutme.md)
+- [A brief CV](curr_vitae.md)
+- [Research projects](projects.md)
 
