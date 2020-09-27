@@ -8,8 +8,6 @@ tags: [omics, data integration, O2PLS]
 comments: true
 ---
 
-# A gentle introduction to OmicsPLS 
-
 Implementing software for omics data integration can be challenging. The statistical theory is often complex, and the code needs to run fast. (To make things worse, there are many definitions and solutions for omics data integration!) Our data integration approach in OmicsPLS has statistical theory 'under the hood' (see [the article](https://doi.org/10.1186/s12859-015-0854-z)) and can be efficiently programmed. To actually use OmicsPLS in your analysis, there is some help available via the vignettes [with an actual data example](https://github.com/selbouhaddani/OmicsPLS/blob/master/OmicsPLS_vignette_realdata.pdf) and [without](https://github.com/selbouhaddani/OmicsPLS/blob/master/vignettes/OmicsPLS_vignette.pdf), and of course [the manual](https://rdrr.io/cran/OmicsPLS/man/). Still I believe that a basic introduction to the main functions in OmicsPLS will help you with getting everything out of this package. 
 
 In this blog, I'll go through one of the functions that you will need at the start of the analysis: the cross-validation (CV) function `crossval_o2m_adjR2`. 
