@@ -32,11 +32,11 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/myavatar-icon.png"
+#avatar: "/img/myavatar-icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-# title-img: /path/to/image
+title-img: "/img/myavatar-icon.png"
 
 # --- Background colour/image options --- #
 
@@ -47,7 +47,7 @@ navbar-text-col: "#273746"
 navbar-children-col: "#d5d8dc"
 page-col: "#f2f4f4"
 link-col: "#273746"
-hover-col: "#17202a"
+hover-col: "#5e355d"
 footer-col: "#d5d8dc"
 footer-text-col: "#273746"
 footer-link-col: "#273746"
