@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Sample blog post
-subtitle: Each post also has a subtitle
+title: A gentle introduction to OmicsPLS
+subtitle: How to do cross-validation with OmicsPLS
 gh-repo: selbouhaddani/OmicsPLS
 gh-badge: [star, fork, follow]
 tags: [omics, data integration, O2PLS]
