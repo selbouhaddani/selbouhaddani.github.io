@@ -124,3 +124,21 @@ joint components `r` is given by step 4, `comp_XY`. The number of
 `X`-specific components is given by step 2 minus step 4,
 `comp_X - comp_XY` The number of `y`-specific components is given by
 step 3 minus step 4, `comp_Y - comp_XY`
+
+The heuristic assumes that the number of eigenvalues in $x$ and $y$ are the sum of the number of joint eigenvalues, and the specific eigenvalues. Therefore, to get the number of specific components, you subtract the two as described. Since no repeated fitting is involved, it's much faster than cross-validation. 
+
+A final word of caution: calculating `crossprod(X,Y)` when both `X` and `Y` are high dimensional is a bad idea. The output is a matrix of size `ncol(X)*ncol(Y)` Instead, calculate `tcrossprod(X,X) %*% tcrossprod(Y,Y)` as an approximation if the sample size is smaller than the number of variables. You then get
+```
+scree_XY <- sqrt(svd(tcrossprod(X,X) %*% tcrossprod(Y,Y), nu=0, nv=0)$d)
+```
+This matrix is of size `nrow(X)*nrow(Y)`. 
+
+# Summary
+
+As an alternative to cross-validation, we went through the scree plot. From the scree plot, and after a subtraction step, the number of joint and specific components can be estimated. These numbers can then be used to fit OmicsPLS to the data. 
+
+
+
+Questions? Comments? Let me know!
+
+
