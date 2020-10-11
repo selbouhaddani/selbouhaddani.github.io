@@ -83,7 +83,7 @@ scree_X <- scree_X / sum(scree_X)
 plot(scree_X, type = "b")
 ```
 
-![](images/screeplot/scree_X)
+![screeX](images/screeplot/scree_X)
 
 ``` r
 comp_X <- 3 #or 2, or 4, whatever you like
@@ -98,7 +98,7 @@ scree_Y <- scree_Y / sum(scree_Y)
 plot(scree_Y, type = "b")
 ```
 
-![](images/screeplot/scree_Y)
+![screeY](images/screeplot/scree_Y)
 
 ``` r
 comp_Y <- 3
@@ -113,7 +113,7 @@ scree_XY <- scree_XY / sum(scree_XY)
 plot(scree_XY, type = "b")
 ```
 
-![](images/screeplot/scree_XY)
+![screeXY](images/screeplot/scree_XY)
 
 ``` r
 comp_XY <- 3
