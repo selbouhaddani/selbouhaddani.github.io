@@ -27,8 +27,8 @@ navbar-links:
     - Projects: "projects"
     - Conference slides: "conf_slides"
     - Publications: "publications"
-  Teaching: "teaching"
-  Software: "software"
+    - Teaching: "teaching"
+    - Software: "software"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -92,7 +92,7 @@ social-network-links:
 # Select which share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
+  facebook: false
   linkedin: true
 
 # How to display the link to the website in the footer
@@ -258,4 +258,4 @@ plugins:
   - jekyll-sitemap
 
 # Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
+# 2fc73a3a967 e97599c9763d05e564189
