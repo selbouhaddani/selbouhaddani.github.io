@@ -4,7 +4,7 @@ title: A gentle introduction to OmicsPLS II
 subtitle: An alternative to cross-validation with OmicsPLS
 gh-repo: selbouhaddani/OmicsPLS
 gh-badge: [star, fork, follow]
-tags: [omics, data integration, O2PLS]
+tags: [OmicsPLS, cross-validation, Joint Principal Components, data integration, O2PLS]
 comments: true
 ---
 
