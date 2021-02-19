@@ -1,0 +1,16 @@
+---
+title: "A gentle introduction to OmicsPLS III"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+In the previous posts, we discussed how to select the number of components to retain. 
+The scree plot can be a good visual alternative if data exploration is more important than prediction.
+In this post, we will go through the interpretation of the scree plot and how we can derive the number of components to choose.
+
+# General characteristics of a scree plot
+
+
