@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A gentle introduction to OmicsPLS II
+title: A gentle introduction to OmicsPLS III
 subtitle: An alternative to cross-validation with OmicsPLS
 gh-repo: selbouhaddani/OmicsPLS
 gh-badge: [star, fork, follow]
