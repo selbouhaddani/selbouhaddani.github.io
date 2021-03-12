@@ -68,12 +68,10 @@ list.files()
 ```
 
 ```
-## [1] "2021-03-12-Data-Analysis-miRNA-mRNA.html"
-## [2] "2021-03-12-Data-Analysis-miRNA-mRNA.Rmd"
-## [3] "FullExpforInt.txt"                       
-## [4] "miRNAforInt.txt"                         
-## [5] "Readme.txt"                              
-## [6] "SubtypeLabels.txt"
+## [1] "FullExpforInt.txt"                       
+## [2] "miRNAforInt.txt"                         
+## [3] "Readme.txt"                              
+## [4] "SubtypeLabels.txt"
 ```
 
 ```r
@@ -227,7 +225,7 @@ boxplot(miRNA[,1:50], xlab="miRNA")
 boxplot(mRNA[,1:50], xlab="mRNA")
 ```
 
-![](2021-03-12-Data-Analysis-miRNA-mRNA_files/figure-html/Descriptives-2.png)<!-- -->
+![](/img/posts/2021-03-12-Data-Analysis-miRNA-mRNA_files/figure-html/Descriptives-2.png)<!-- -->
 
 ```r
 ## RV coefficient
@@ -306,20 +304,20 @@ Also, note that `ssq(X) == sum(svd(X)$d^2)` for any matrix X, where `ssq(X)` is 
 plot(svd(miRNA, nu=0, nv=0)$d[1:50]^2 / ssq(miRNA), main="miRNA")
 ```
 
-![](2021-03-12-Data-Analysis-miRNA-mRNA_files/figure-html/Scree-plots-1.png)<!-- -->
+![](/img/posts/2021-03-12-Data-Analysis-miRNA-mRNA_files/figure-html/Scree-plots-1.png)<!-- -->
 
 ```r
 plot(svd(mRNA, nu=0, nv=0)$d[1:50]^2 / ssq(mRNA), main="mRNA")
 ```
 
-![](2021-03-12-Data-Analysis-miRNA-mRNA_files/figure-html/Scree-plots-2.png)<!-- -->
+![](/img/posts/2021-03-12-Data-Analysis-miRNA-mRNA_files/figure-html/Scree-plots-2.png)<!-- -->
 
 ```r
 plot(svd(t(mRNA) %*% miRNA, nu=0, nv=0)$d[1:50]^2 / ssq(crossprod(mRNA, miRNA)),
      main="Both")
 ```
 
-![](2021-03-12-Data-Analysis-miRNA-mRNA_files/figure-html/Scree-plots-3.png)<!-- -->
+![](/img/posts/2021-03-12-Data-Analysis-miRNA-mRNA_files/figure-html/Scree-plots-3.png)<!-- -->
 
 ## Fitting with OmicsPLS
 
@@ -416,13 +414,13 @@ qplot(x = scores(fit, "Xj",subset = 1),
       col = as.factor(subtype)) + stat_ellipse()
 ```
 
-![](2021-03-12-Data-Analysis-miRNA-mRNA_files/figure-html/Scores plot-1.png)<!-- -->
+![](/img/posts/2021-03-12-Data-Analysis-miRNA-mRNA_files/figure-html/Scores plot-1.png)<!-- -->
 
 ```r
 qplot(x=fit$U[,1], y=fit$U[,2], col = as.factor(subtype)) + stat_ellipse()
 ```
 
-![](2021-03-12-Data-Analysis-miRNA-mRNA_files/figure-html/Scores plot-2.png)<!-- -->
+![](/img/posts/2021-03-12-Data-Analysis-miRNA-mRNA_files/figure-html/Scores plot-2.png)<!-- -->
 
 There is some differentiation between subtype 3 and 4 in component 1. Subtype 1 is quite homogeneous, and especially present in component 2. These results are similar for miRNA as well as mRNA, though the latter seems to yield more distinct groups.
 
