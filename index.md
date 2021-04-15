@@ -11,6 +11,7 @@ email: s.elbouhaddani[at]umcutrecht.nl
 - [A brief CV](curr_vitae.md)
 - [Research projects](projects.md)
 
-#### Also check out the blog posts
+
+### Also check out the blog posts
 
 [Click here for the Blogs](blog)
